@@ -52,7 +52,7 @@ header {
     margin: 16px 0px 24px 0px;
 }
 
-.google{
+.google, button{
     background-color: #05c7cf;
     color: white;
     font-size: 24px;
@@ -134,3 +134,62 @@ CONTACT
 }
 
 
+
+/*
+
+
+FORM 
+
+*/
+
+#email {
+    background-color: lightcyan;
+}
+
+.my_form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+.my_form span{
+    text-align: center;
+}
+
+.my_form input, textarea{
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px 12px;
+}
+
+
+/*
+
+
+FOOTER
+
+*/
+
+footer{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer_img{
+    width:400px;
+    margin: 16px 0;
+}
+
+.footer_links{
+    margin-bottom: 36px;
+}
+
+.footer_link{
+    padding: 0px 8px;
+}
