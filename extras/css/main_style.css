@@ -1,0 +1,11 @@
+a {
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
+
+a span {
+  display: block;
+}
