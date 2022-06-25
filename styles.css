@@ -44,6 +44,15 @@ li {
 .text--purple{
     color: #6030b1;
 }
+
+section:nth-child(even){
+    /* background-color: #f8f8f8; */
+    background-color: red;
+}
+
+.section__title {
+    margin-bottom: 20px;
+}
 /* 
 
 NAVIGATION BAR
@@ -115,6 +124,7 @@ ABOUT ME
     max-width: 500px;
     margin: 0 auto;
     text-align: center;
+    padding-top: 20px;
 }
 
 .about-me__picture--mask{
@@ -151,9 +161,45 @@ ABOUT ME
 .about-me__image--container{
     flex: 1;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .about-me__image{
     width: 100%;
+}
+
+/*
+
+WORK EXPERIENCE
+
+*/
+
+
+/*
+
+TECH STACK
+
+*/
+.languages__list {
+    display: flex;
+    width: 100%;
+
+}
+
+.languages__image--wrapper{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    
+}
+
+
+.languages{
+    width: 25%;
+}
+
+.languages__image{
+    width: 100%;
+    max-width: 100px;
 }
