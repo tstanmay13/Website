@@ -35,6 +35,10 @@ li {
     flex:1;
 }
 
+.container{
+    padding: 52px 0px;;
+}
+
 .row {
     width: 100%;
     max-width: 900px;
