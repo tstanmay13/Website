@@ -16,7 +16,7 @@
       <nav>
         <div class="personal__logo">Tanmay Singh</div>
         <ul class="nav__link--list">
-          <li>
+          <li class="nav__link">
             <a
               href="#work-experience"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
@@ -25,7 +25,7 @@
             >
           </li>
 
-          <li>
+          <li class="nav__link">
             <a
               href="#languages"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
@@ -34,7 +34,7 @@
             >
           </li>
 
-          <li>
+          <li class="nav__link">
             <a
               href="#projects"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
@@ -43,7 +43,7 @@
             >
           </li>
 
-          <li>
+          <li class="nav__link">
             <a
               href="Contact"
               class="nav__link--anchor nav__link--anchor-primary"
@@ -66,7 +66,7 @@
               />
             </figure>
             <h1 class="about-me__info--title">
-              Hey! I'm <span class="text--purple">Tanmay Singh</span> 👋
+              Hey! I'm <span class="text--purple">Tanmay Singh</span> <span class="wave">👋</span>
             </h1>
             <p class="about-me__info--para">
               I'm a
@@ -381,6 +381,15 @@
                     resnsible for developing gesture dectecting and speech to
                     text recognition
                   </p>
+                  <div class="project__description--links">
+                    <a
+                      href="https://github.com/tstanmay13/IronHand"
+                      class="project__description--link"
+                      target="_blank"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                  </div>
                 </div>
               </div>
             </li>
@@ -391,8 +400,13 @@
 
     <footer>
       <div class="footer__row">
-        <a href="">
-          <img src="./assets/logo.png" class="footer__logo--image" alt="" />
+        <a href="#" class="footer__anchor">
+          <figure class="footer__logo">
+          <img src="./assets/logo.png" class="footer__logo--image"alt="" />
+        </figure>
+          <span class="footer__logo--popper"> Top
+            <i class="fas fa-arrow-up"></i>
+          </span>
         </a>
 
         <div class="footer__social--list">
