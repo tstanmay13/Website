@@ -328,6 +328,7 @@ WORK EXPERIENCE
 
 .work__image {
   width: 100%;
+
   transition: all 500ms ease;
 }
 
@@ -534,7 +535,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 8% 0;
+    padding: 2% 0;
 }
 
 .footer__social--link,
