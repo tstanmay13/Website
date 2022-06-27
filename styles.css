@@ -295,6 +295,10 @@ WORK EXPERIENCE
   margin: 0 auto;
 }
 
+.work:first-child{
+  padding-top: 48px;
+}
+
 .work--wrapper:before {
   content: "";
   position: absolute;
@@ -340,6 +344,7 @@ WORK EXPERIENCE
 
 .work__description--title {
   font-size: 36px;
+  /* padding-bottom: 24px; */
 }
 
 .work__description--list {
