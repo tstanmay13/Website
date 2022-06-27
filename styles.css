@@ -399,3 +399,25 @@ PROJECT
   text-align: left;
   color: white;
 }
+
+/*
+
+FOOTER
+
+*/
+
+footer{
+    background-color: #242424;
+}
+
+.footer__logo--image{
+    width: 100px;
+    height: 100px;
+}
+
+.footer__row{
+    display: flex;
+    flex-direction: column;
+    padding: 8% 0;
+
+}
